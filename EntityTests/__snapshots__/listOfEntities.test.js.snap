@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Entity List should render without any error Entity List should render correctly 1`] = `
+<div>
+  <div
+    className="EntityListCard"
+    key="0"
+    style={
+      Object {
+        "left": "0vw",
+        "top": "0vh",
+      }
+    }
+  >
+    <div>
+      <img
+        alt="Entity"
+        className="EntityListImage"
+        src="India.png"
+      />
+    </div>
+    <div>
+      <p
+        className="EntityListName"
+      >
+        India
+      </p>
+    </div>
+    <div>
+      <p
+        className="EntityListNumFollowing"
+      >
+        52K Following
+      </p>
+    </div>
+    <div
+      className="PointerWhenOnHover EntityInListIsfollowing"
+    >
+      <RectangleButton
+        bordered={true}
+        disabled={false}
+        filled={false}
+        fontSize={18}
+        height={35}
+        radius={38.5}
+        title="Follow"
+        width={160}
+      />
+    </div>
+  </div>
+  <div
+    className="EntityListCard"
+    key="1"
+    style={
+      Object {
+        "left": "0vw",
+        "top": "16.85185185185185vh",
+      }
+    }
+  >
+    <div>
+      <img
+        alt="Entity"
+        className="EntityListImage"
+        src="usaSq.jpg"
+      />
+    </div>
+    <div>
+      <p
+        className="EntityListName"
+      >
+        United States of America
+      </p>
+    </div>
+    <div>
+      <p
+        className="EntityListNumFollowing"
+      >
+        52K Following
+      </p>
+    </div>
+    <div
+      className="PointerWhenOnHover EntityInListIsfollowing"
+    >
+      <RectangleButton
+        bordered={false}
+        disabled={false}
+        filled={false}
+        fontSize={18}
+        height={35}
+        radius={38.5}
+        title="Following"
+        width={160}
+      />
+    </div>
+  </div>
+</div>
+`;

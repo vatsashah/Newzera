@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnails should render without any error Thumbnails should render correctly 1`] = `
+<div
+  className="ThumbContainer"
+>
+  <div
+    key="0"
+  >
+    <img
+      alt="Thumb"
+      className="ThumbImage"
+      src="ThumbOne.png"
+      style={
+        Object {
+          "left": "0vw",
+          "top": "0vh",
+        }
+      }
+    />
+  </div>
+  <div
+    key="1"
+  >
+    <img
+      alt="Thumb"
+      className="ThumbImage"
+      src="ThumbTwo.png"
+      style={
+        Object {
+          "left": "1.8229166666666667vw",
+          "top": "0vh",
+        }
+      }
+    />
+  </div>
+  <div
+    key="2"
+  >
+    <img
+      alt="Thumb"
+      className="ThumbImage"
+      src="ThumbThree.png"
+      style={
+        Object {
+          "left": "3.6458333333333335vw",
+          "top": "0vh",
+        }
+      }
+    />
+  </div>
+  <div
+    key="3"
+  >
+    <img
+      alt="Thumb"
+      className="ThumbImage"
+      src="ThumbFour.png"
+      style={
+        Object {
+          "left": "5.46875vw",
+          "top": "0vh",
+        }
+      }
+    />
+  </div>
+</div>
+`;

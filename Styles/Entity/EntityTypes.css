@@ -1,0 +1,587 @@
+@font-face {
+  font-family: 'BananaGrotesk-Medium';
+  src: local('BananaGrotesk-Medium'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Light';
+  src: local('BananaGrotesk-Light'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Semibold';
+  src: local('BananaGrotesk-Semibold'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Bold';
+  src: local('BananaGrotesk-Bold'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Regular';
+  src: local('BananaGrotesk-Regular'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Regular.otf') format('opentype');
+}
+
+.entitycard {
+  width: 51.4vw;
+  height: 39.7222vh;
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0.78125vw;
+  opacity: 1;
+}
+
+.entityimg {
+  top: 5.555vh;
+  left: 3.125vw;
+  width: 8.33vw;
+  height: 14.814814vh;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 1.823vw;
+  position: absolute;
+  opacity: 1;
+}
+
+.entityname {
+  top: 7.407407vh;
+  left: 13.75vw;
+  width: 20.48vw;
+  height: 3.333333vh;
+  font-family: 'BananaGrotesk-Bold';
+  position: absolute;
+  margin: 0px;
+  letter-spacing: -0.0114vw;
+  font-size: 1.66vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.entitytrending {
+  top: 7.457407vh;
+  left: 25.42vw;
+  width: 1.77vw;
+  height: 3.1379629vh;
+  margin: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  opacity: 1;
+}
+
+.entitydescription {
+  top: 12.129629vh;
+  left: 13.75vw;
+  width: 12.239vw;
+  height: 2.68518518vh;
+  margin: 0px;
+  font-size: 1.348vw;
+  text-align: left;
+  font-family: 'BananaGrotesk-Light';
+  position: absolute;
+  letter-spacing: -0.0093vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.numFollowing {
+  top: 16.203703vh;
+  left: 13.75vw;
+  width: 7.29vw;
+  height: 2.314814vh;
+  margin: 0px;
+  font-size: 1.14vw;
+  font-family: 'BananaGrotesk-Light';
+  position: absolute;
+  text-align: left;
+  letter-spacing: 0.00052vw;
+  color: #8f8faf;
+  opacity: 1;
+}
+
+.share {
+  top: 10.09259vh;
+  left: 30.88vw;
+  width: 2.6vw;
+  height: 4.669629vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.react {
+  top: 10.09259vh;
+  left: 34.27vw;
+  width: 2.6vw;
+  height: 4.669629vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.PointerWhenOnHover {
+  cursor: pointer;
+}
+
+.isfollowing {
+  top: 10.0925925vh;
+  left: 37.65vw;
+  width: 10.625vw;
+  height: 4.669629vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.DetailTitle {
+  top: 25.8333vh;
+  left: 3.125vw;
+  width: 3.38vw;
+  height: 2.2222vh;
+  text-align: left;
+  margin: 0px;
+  position: absolute;
+  font-family: 'BananaGrotesk-Medium';
+  font-size: 1.09375vw;
+  letter-spacing: -0.00729vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.entitydetail {
+  top: 28.8888vh;
+  left: 3.125vw;
+  width: 45.52vw;
+  height: 5.27777vh;
+  margin: 0px;
+  position: absolute;
+  font-family: 'BananaGrotesk-Light';
+  font-size: 1.088vw;
+  text-align: left;
+  letter-spacing: -0.00729vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.SimilarEntityCardContainer {
+  width: 51.4vw;
+  height: 35.74074vh;
+  background-color: #ffffff;
+  border-radius: 0.781vw;
+  opacity: 1;
+  position: absolute;
+}
+
+.SimilarEntityCardContainerHeading {
+  top: 5.185185vh;
+  left: 3.177vw;
+  width: 7.239vw;
+  height: 2.2222vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Medium';
+  text-align: left;
+  margin: 0px;
+  font-size: 1.088vw;
+  letter-spacing: -0.00729vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.SimilarEntityViewAll {
+  top: 5.185185vh;
+  left: 42.86vw;
+  width: 3.85vw;
+  height: 2.22222vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  text-align: left;
+  margin: 0px;
+  font-size: 1.088vw;
+  text-align: left;
+  letter-spacing: -0.00625vw;
+  color: #7b46e4;
+  opacity: 1;
+}
+
+.Left30pxSpace {
+  top: 10.46296296vh;
+  left: 0vw;
+  width: 3.125vw;
+  height: 23.51851vh;
+  background: transparent linear-gradient(270deg, #ffffff00 0%, #ffffff 100%) 0% 0% no-repeat
+    padding-box;
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+}
+
+.Right30pxSpace {
+  top: 10.46296296vh;
+  right: 0vw;
+  width: 3.125vw;
+  height: 23.518518vh;
+  /* transform: matrix(0, -1, 1, 0, 0, 0); */
+  background: transparent linear-gradient(90deg, #ffffff00 0%, #ffffff 100%) 0% 0% no-repeat
+    padding-box;
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* carousel style starts */
+
+.row_entities {
+  top: 10.46296vh;
+  width: 51.4vw;
+  height: 23.803703vh;
+  position: absolute;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  min-height: 19.9074074vh;
+  transition: 500ms;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrap {
+  width: 8.75vw;
+  height: 23.518518vh;
+  margin-left: 1.56vw;
+  background-color: #ffffff;
+  border: 0.052vw solid #e6eced;
+  border-radius: 0.78125vw;
+  opacity: 1;
+  display: inline-block;
+  position: relative;
+  transition: height 500ms;
+}
+
+.entity_card {
+  width: 8.75vw;
+  object-fit: contain;
+  height: 100%;
+}
+
+.ExtraSpace1 {
+  width: 1.5625vw;
+  height: 23.518518vh;
+  background-color: #ffffff;
+  opacity: 1;
+  display: inline-block;
+  position: relative;
+  transition: height 500ms;
+}
+
+.ExtraSpace2 {
+  width: 1.5625vw;
+  object-fit: contain;
+  height: 100%;
+}
+
+.scroll_button {
+  position: absolute;
+  top: 20.648148vh;
+  height: 3.2407407vh;
+  width: 1.8229vw;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  box-shadow: 0vw 0.052vw 0.15625vw #00000029;
+  z-index: 3;
+}
+.right_arrow {
+  right: 1.5625vw;
+  /* opacity: 0;
+  visibility: hidden; */
+  transform: translateX(20%);
+  transition: all 500ms;
+}
+.left_arrow {
+  left: 1.5625vw;
+  /* opacity: 0;
+  visibility: hidden; */
+  transform: translateX(-20%);
+  transition: all 500ms;
+}
+/* .row_posters:hover .right_arrow {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+.row_posters:hover .left_arrow {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+} */
+/* .space {
+  min-width: 155px;
+  height: 126px;
+} */
+.arrow {
+  border: solid black;
+  border-width: 0 0.104vw 0.104vw 0;
+  display: inline-block;
+  padding: 0.5555vh 0.3125vw;
+  z-index: 3;
+}
+
+.right {
+  left: 0.4166vw;
+  position: absolute;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  right: 0.4166vw;
+  position: absolute;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+/* carousel style ends */
+
+.similarEntityImage {
+  top: 2.5vh;
+  left: 1.875vw;
+  width: 5vw;
+  height: 8.8888vh;
+  position: absolute;
+  background-color: white;
+  border-radius: 1.0416vw;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.similarEntityName {
+  top: 13.2407407vh;
+  left: 1.614vw;
+  width: 5.677vw;
+  height: 3.518518vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  margin: 0px;
+  font-size: 0.9322vw;
+  letter-spacing: 0px;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.similarIsfollowing {
+  top: 18.333333vh;
+  left: 1.458vw;
+  width: 5.7vw;
+  height: 3.2407407vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.ThumbImage {
+  width: 1.302vw;
+  height: 2.3148148vh;
+  position: absolute;
+  background-color: white;
+  border-radius: 0.2604vw;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.EntitiesInActivityFeedSection {
+  width: 51.302vw;
+  height: 17.4060185vh;
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 0.78125vw;
+  opacity: 1;
+}
+
+.UserImage {
+  top: 4.629629vh;
+  height: 2.59259vh;
+  left: 2.604vw;
+  width: 1.458vw;
+  border-radius: 0.729vw;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.UserContent {
+  top: 4.629629vh;
+  left: 4.635vw;
+  width: 31.04vw;
+  height: 1.7592592vh;
+  position: absolute;
+  text-align: left;
+  margin: 0px;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 0.9375vw;
+  letter-spacing: -0.00625vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.UserName {
+  display: inline-block;
+  font-family: 'BananaGrotesk-Bold';
+}
+
+.MiddleText {
+  display: inline-block;
+  color: #8f8faf;
+}
+
+.UserFollowingNames {
+  display: inline-block;
+  font-family: 'BananaGrotesk-Bold';
+}
+
+.elipsis {
+  top: 5.3703703vh;
+  left: 47.91vw;
+  width: 0.78125vw;
+  height: 0.35vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.Friends {
+  top: 7.5vh;
+  left: 4.79vw;
+  width: 2.76vw;
+  height: 1.66666vh;
+  position: absolute;
+  text-align: left;
+  margin: 0px;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 0.833vw;
+  letter-spacing: -0.00468vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.period {
+  top: 8.33333vh;
+  left: 8.072vw;
+  width: 0.104vw;
+  height: 0.185185vh;
+  position: absolute;
+  border-radius: 0.052vw;
+  background-color: #1f1f60;
+  opacity: 1;
+}
+
+.Time {
+  top: 7.5vh;
+  left: 8.6979vw;
+  width: 3.07vw;
+  height: 1.66666vh;
+  text-align: right;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 0.833vw;
+  margin: 0px;
+  letter-spacing: -0.00468vw;
+  color: #8f8faf;
+  opacity: 1;
+}
+
+.EntityImageInActivityFeed {
+  top: 10.185185vh;
+  width: 2.5vw;
+  height: 4.44444vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5729vw;
+  opacity: 1;
+}
+
+.EntityListCard {
+  width: 33.85vw;
+  height: 12.22222vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.052vw solid #e6eced;
+  border-radius: 0.78125vw;
+  opacity: 1;
+  position: absolute;
+}
+
+.EntityListImage {
+  top: 1.66666vh;
+  left: 1.302vw;
+  width: 5vw;
+  height: 8.88888vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 1.041vw;
+  opacity: 1;
+}
+
+.EntityListName {
+  top: 3.4259259vh;
+  left: 7.421875vw;
+  width: 15.625vw;
+  height: 2.314814vh;
+  font-size: 1.1458vw;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  margin: 0px;
+  text-align: left;
+  letter-spacing: -0.0078125vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.EntityListNumFollowing {
+  top: 7.037037vh;
+  left: 7.447vw;
+  width: 15.625vw;
+  height: 1.66666vh;
+  font-size: 0.833vw;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  margin: 0px;
+  text-align: left;
+  letter-spacing: -0.005729vw;
+  color: #8f8faf;
+  opacity: 1;
+}
+
+.EntityInListIsfollowing {
+  top: 3.88888vh;
+  left: 23.958vw;
+  width: 8.33vw;
+  height: 3.131944vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}

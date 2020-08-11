@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RectangleButton should render without any error RectangleButton should render correctly 1`] = `
+<div
+  className="RectangleDefaultBackground"
+  style={
+    Object {
+      "borderRadius": "0vh",
+      "height": "4.62962962962963vh",
+      "width": "15.625vw",
+    }
+  }
+>
+  <p
+    className="RectangleDefaultText"
+    style={
+      Object {
+        "fontSize": "1.6666666666666667vh",
+        "height": "1.6666666666666667vw",
+        "top": "1.4814814814814814vh",
+        "width": "15.625vw",
+      }
+    }
+  >
+    Button
+  </p>
+</div>
+`;

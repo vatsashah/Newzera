@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Entity Card should render without any error Entity Card should render correctly 1`] = `
+<div
+  className="entitycard"
+  style={
+    Object {
+      "left": "0vw",
+      "top": "0vh",
+    }
+  }
+>
+  <div>
+    <img
+      alt="Entity"
+      className="entityimg"
+      src="Trump.png"
+    />
+  </div>
+  <div>
+    <p
+      className="entityname"
+    >
+      Donald Trump
+    </p>
+  </div>
+  <div>
+    <img
+      alt="Trending Icon"
+      className="entitytrending"
+      src={
+        Object {
+          "ReactComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+          "__esModule": true,
+          "default": "icon-trending.svg",
+        }
+      }
+    />
+  </div>
+  <div>
+    <p
+      className="entitydescription"
+    >
+      President of the USA
+    </p>
+  </div>
+  <div>
+    <p
+      className="numFollowing"
+    >
+      54K Following
+    </p>
+  </div>
+  <div
+    className="PointerWhenOnHover share"
+  >
+    <ActionBubble
+      activityType="Share"
+    />
+  </div>
+  <div
+    className="PointerWhenOnHover react"
+  >
+    <ActionBubble
+      activityType="React"
+    />
+  </div>
+  <div
+    className="PointerWhenOnHover isfollowing"
+  >
+    <RectangleButton
+      bordered={true}
+      disabled={false}
+      filled={false}
+      fontSize={20}
+      height={50}
+      radius={38.5}
+      title="Follow"
+      width={204}
+    />
+  </div>
+  <div>
+    <p
+      className="DetailTitle"
+    >
+      Details
+    </p>
+  </div>
+  <div>
+    <p
+      className="entitydetail"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+  </div>
+</div>
+`;

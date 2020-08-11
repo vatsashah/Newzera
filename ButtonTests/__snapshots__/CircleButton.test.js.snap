@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircleEllipse Circular Button should render correctly 1`] = `
+<div
+  className="default"
+>
+  <img
+    alt="Greater than symbol"
+    className="arrowFix"
+    src="RightArrowColoured.png"
+  />
+</div>
+`;

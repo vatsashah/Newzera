@@ -1,0 +1,471 @@
+@font-face {
+  font-family: 'BananaGrotesk-Medium';
+  src: local('BananaGrotesk-Medium'),
+    url('../../../Assets/Fonts/BananaGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Light';
+  src: local('BananaGrotesk-Light'),
+    url('../../../Assets/Fonts/BananaGrotesk-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Semibold';
+  src: local('BananaGrotesk-Semibold'),
+    url('../../../Assets/Fonts/BananaGrotesk-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Bold';
+  src: local('BananaGrotesk-Bold'),
+    url('../../../Assets/Fonts/BananaGrotesk-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Regular';
+  src: local('BananaGrotesk-Regular'),
+    url('../../../Assets/Fonts/BananaGrotesk-Regular.otf') format('opentype');
+}
+
+.ButtonFrame {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 163.98148vh;
+  margin: 0px 0px;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.logo {
+  top: 5.277777vh;
+  left: 2.78645vw;
+  width: 11.822916vw;
+  height: 6.38888vh;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.ButtonTitle {
+  top: 17.037037vh;
+  left: 3.697916vw;
+  width: 3.85416vw;
+  height: 2.037037vh;
+  text-align: left;
+  position: absolute;
+  margin: 0vw;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.04166vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.LongLine1 {
+  top: 38.703703vh;
+  left: 13.854166vw;
+  width: 82.0833vw;
+  height: 0vw;
+  position: absolute;
+  border: 0.052083vw solid #707070;
+  opacity: 1;
+}
+
+.LongLine2 {
+  top: 69.629629vh;
+  left: 13.385416vw;
+  width: 82.0833vw;
+  height: 0vh;
+  position: absolute;
+  border: 0.052083vw solid #707070;
+  opacity: 1;
+}
+
+.LongLine3 {
+  top: 116.481481vh;
+  left: 13.3854166vw;
+  width: 82.0833vw;
+  height: 0vh;
+  position: absolute;
+  border: 0.052083vw solid #707070;
+  opacity: 1;
+}
+
+/* Styles for Headings of buttons start from here */
+
+.c60x60 {
+  top: 21.0185185vh;
+  left: 15.9375vw;
+  width: 3.17708vw;
+  height: 4.722222vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  text-align: left;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.c50x50 {
+  top: 21.0185185vh;
+  left: 40.625vw;
+  width: 3.17708vw;
+  height: 2.037037vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  text-align: left;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r125x30 {
+  top: 45.092592vh;
+  left: 14.791666vw;
+  width: 3.489583vw;
+  height: 4.722222vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  text-align: left;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r112x35 {
+  top: 45.4629629vh;
+  left: 31.25vw;
+  width: 3.1770833vw;
+  height: 4.722222vh;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  text-align: left;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r125x35 {
+  top: 45.4629629vh;
+  left: 46.614583vw;
+  width: 3.4375vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r160x35 {
+  top: 45.4629629vh;
+  left: 61.041vw;
+  width: 3.48958vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r175x50 {
+  top: 77.407407vh;
+  left: 14.79166vw;
+  width: 3.48958vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r200x50 {
+  top: 77.407407vh;
+  left: 30.625vw;
+  width: 3.854166vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r225x50 {
+  top: 77.407407vh;
+  left: 48.125vw;
+  width: 3.6979166vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r250x50 {
+  top: 124.259259vh;
+  left: 14.6875vw;
+  width: 3.80208vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r275x50 {
+  top: 124.259259vh;
+  left: 32.395833vw;
+  width: 7.5vw;
+  height: 2.037037vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+.r300x50 {
+  top: 124.259259vh;
+  left: 50.3645833vw;
+  width: 13.229166vw;
+  height: 4.722222vh;
+  text-align: left;
+  position: absolute;
+  font-family: 'BananaGrotesk-Bold';
+  font-size: 1.041666vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #1f1f60;
+  opacity: 1;
+}
+
+/* Styles for Headings of buttons ends here */
+
+/* Below styles fix the position of buttons on screen */
+
+.Share {
+  top: 27.22222vh;
+  left: 40.625vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.Raven {
+  top: 27.22222vh;
+  left: 43.90625vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.React {
+  top: 27.22222vh;
+  left: 47.1875vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CE1 {
+  top: 26.66666vh;
+  left: 15.8854166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CE2 {
+  top: 26.66666vh;
+  left: 21.1979166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CE3 {
+  top: 26.66666vh;
+  left: 26.5104166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R1 {
+  top: 51.666666vh;
+  left: 14.791666vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R2 {
+  top: 57.9629629vh;
+  left: 14.791666vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R3 {
+  top: 51.666666vh;
+  left: 30.9895833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R4 {
+  top: 57.685185vh;
+  left: 30.9895833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R5 {
+  top: 51.666666vh;
+  left: 46.45833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R6 {
+  top: 57.685185vh;
+  left: 46.45833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R7 {
+  top: 51.666666vh;
+  left: 60.6770833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R8 {
+  top: 57.685185vh;
+  left: 60.6770833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R9 {
+  top: 84.907407vh;
+  left: 13.8020833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R10 {
+  top: 84.907407vh;
+  left: 30.15625vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R11 {
+  top: 92.407407vh;
+  left: 30.15625vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R12 {
+  top: 99.907407vh;
+  left: 30.15625vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R13 {
+  top: 84.907407vh;
+  left: 48.0729166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R14 {
+  top: 92.407407vh;
+  left: 48.0729166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R15 {
+  top: 99.907407vh;
+  left: 48.0729166vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R16 {
+  top: 130vh;
+  left: 13.8020833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R17 {
+  top: 130vh;
+  left: 30.9895833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R18 {
+  top: 138.2407407vh;
+  left: 30.9895833vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R19 {
+  top: 130vh;
+  left: 49.53125vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R20 {
+  top: 138.2407407vh;
+  left: 49.53125vw;
+  position: absolute;
+  cursor: pointer;
+}
+
+.R21 {
+  top: 146.38888vh;
+  left: 49.53125vw;
+  position: absolute;
+  cursor: pointer;
+}

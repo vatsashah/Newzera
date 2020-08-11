@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Entities In Activity Feed should render without any error Entities In Activity Feed should render correctly 1`] = `
+<div>
+  <div
+    className="EntitiesInActivityFeedSection"
+    style={
+      Object {
+        "left": "0vw",
+        "top": "0vh",
+      }
+    }
+  >
+    <div
+      className="PointerWhenOnHover"
+    >
+      <img
+        alt="User"
+        className="UserImage"
+        src="userImage.png"
+      />
+    </div>
+    <div
+      className="UserContent"
+    >
+      <div
+        className="UserName PointerWhenOnHover"
+      >
+        Amanda Will 
+         
+      </div>
+        
+      <div
+        className="MiddleText"
+      >
+        started following 
+      </div>
+        
+      <div
+        className="UserFollowingNames PointerWhenOnHover"
+      >
+        India, ONU, Donald Trump and 3 more
+      </div>
+    </div>
+    <div
+      className="PointerWhenOnHover"
+    >
+      <img
+        alt="elipsis"
+        className="elipsis"
+        src={
+          Object {
+            "ReactComponent": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "__esModule": true,
+            "default": "elipsis.svg",
+          }
+        }
+      />
+    </div>
+    <div>
+      <p
+        className="Friends"
+      >
+        Friends
+      </p>
+    </div>
+    <div
+      className="period"
+    />
+    <div>
+      <p
+        className="Time"
+      >
+        4:45 pm
+      </p>
+    </div>
+    <div>
+      <div
+        key="0"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "4.791666666666667vw",
+            }
+          }
+        />
+      </div>
+      <div
+        key="1"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "7.916666666666667vw",
+            }
+          }
+        />
+      </div>
+      <div
+        key="2"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "11.041666666666668vw",
+            }
+          }
+        />
+      </div>
+      <div
+        key="3"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "14.166666666666668vw",
+            }
+          }
+        />
+      </div>
+      <div
+        key="4"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "17.291666666666668vw",
+            }
+          }
+        />
+      </div>
+      <div
+        key="5"
+      >
+        <img
+          alt="EntityImageInActivityFeed"
+          className="EntityImageInActivityFeed"
+          src="Trump.png"
+          style={
+            Object {
+              "left": "20.416666666666668vw",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

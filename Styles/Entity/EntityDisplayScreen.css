@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'BananaGrotesk-Medium';
+  src: local('BananaGrotesk-Medium'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Light';
+  src: local('BananaGrotesk-Light'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Semibold';
+  src: local('BananaGrotesk-Semibold'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Bold';
+  src: local('BananaGrotesk-Bold'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BananaGrotesk-Regular';
+  src: local('BananaGrotesk-Regular'),
+    url('./../../../Assets/Fonts/BananaGrotesk-Regular.otf') format('opentype');
+}
+
+.entity {
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 228.79629vh;
+  position: absolute;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.logo {
+  top: 2.77777vh;
+  left: 1.98vw;
+  width: 10.104vw;
+  height: 5.833333vh;
+  position: fixed;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.newzeraentityweb {
+  top: 3.98148vh;
+  left: 19.27vw;
+  width: 14.375vw;
+  height: 3.148148vh;
+  margin: 0vw;
+  text-align: left;
+  position: absolute;
+  font-size: 1.557vw;
+  font-family: 'BananaGrotesk-Medium';
+  color: #707070;
+  opacity: 1;
+}
+
+.entitycardtitle {
+  top: 33.0555vh;
+  left: 6.5104vw;
+  width: 6.51vw;
+  height: 2.685185vh;
+  margin: 0px;
+  position: absolute;
+  font-size: 1.349vw;
+  font-family: 'BananaGrotesk-Regular';
+  color: #707070;
+  opacity: 1;
+}
+
+.similarEntityTitle {
+  top: 114.4444vh;
+  left: 4.01vw;
+  width: 9.01vw;
+  height: 5.37037vh;
+  text-align: right;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  margin: 0vw;
+  font-size: 1.348vw;
+  letter-spacing: 0vw;
+  color: #707070;
+  opacity: 1;
+}
+
+.ThumbHeading {
+  top: 141.57407vh;
+  left: 6.45vw;
+  width: 6.56vw;
+  height: 2.685185vh;
+  position: absolute;
+  text-align: right;
+  margin: 0vw;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 1.354vw;
+  letter-spacing: 0vw;
+  color: #707070;
+  opacity: 1;
+}
+
+.RelatedEntityHeading {
+  top: 142.129629vh;
+  left: 19.27vw;
+  width: 5.36vw;
+  height: 1.57407407vh;
+  position: absolute;
+  text-align: left;
+  margin: 0vw;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 0.776vw;
+  letter-spacing: -0.00416vw;
+  color: #8f8faf;
+  opacity: 1;
+}
+
+.EntitiesInActivityFeedHeading {
+  top: 159.6296vh;
+  left: 2.29vw;
+  width: 10.729vw;
+  height: 8.05555vh;
+  position: absolute;
+  text-align: right;
+  font-family: 'BananaGrotesk-Regular';
+  font-size: 1.35vw;
+  margin: 0vw;
+  letter-spacing: 0vw;
+  color: #707070;
+  opacity: 1;
+}
+
+.ListOfEntitiesTitle {
+  top: 195.37037vh;
+  left: 4.479vw;
+  width: 8.54vw;
+  height: 2.685185vh;
+  text-align: right;
+  position: absolute;
+  font-family: 'BananaGrotesk-Regular';
+  margin: 0vw;
+  font-size: 1.349vw;
+  letter-spacing: 0vw;
+  color: #707070;
+  opacity: 1;
+}

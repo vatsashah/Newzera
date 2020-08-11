@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity Button should render without any error Activity Button should render correctly 1`] = `
+<div
+  className="activityButtonBorder"
+>
+  <img
+    alt="ActionButton"
+    className="activityButton"
+    src="Share.png"
+  />
+</div>
+`;
